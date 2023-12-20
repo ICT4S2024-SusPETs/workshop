@@ -77,9 +77,10 @@ th,td{
 }
 
 /* Website Banner */
-.banner {position: relative; font-family:'Roboto Slab',serif;}
+.banner {position: relative; font-family:'Roboto Slab',serif;overflow: hidden;}
 .banner img {
-    width: calc(100% -100px); 
+    object-fit: cover; 
+    width: calc(100% - 200px); 
     height: 100%;
 }
 .top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
