@@ -39,7 +39,15 @@ body{
 
 .row {
     display: flex;
-    align-items: stretch; /* Align items to stretch to the same height */
+    align-items: stretch;
+}
+
+.column {
+    display: flex;
+    flex-direction: row; /* Set the flex direction to row */
+    justify-content: space-between; /* Add space between the two columns */
+    width: 1000px;
+    margin: 60px auto;
 }
 
 a{color: #b8860b; text-decoration:none;}
@@ -160,13 +168,13 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     text-align: right; 
 }
 
-.leftside h3{
+/* .leftside h3{
     text-align: left;
 }
 
 .rightside h3{
     text-align: right;
-}
+} */
 
 .profile-container {
     display: flex;
