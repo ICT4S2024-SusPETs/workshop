@@ -34,7 +34,6 @@ body{
     font-size:1em;
     line-height:1.5em;
     margin: 60px auto;
-    /* min-height: 100vh; */
     width: 1000px;
 }
 
@@ -167,4 +166,19 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 
 .rightside h3{
     text-align: right;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 60px auto;
+}
+
+.leftside, .rightside {
+    width: 48%; /* Adjust as needed, leaving a small gap between the two sides */
+}
+
+.leftside h3, .rightside h3 {
+    margin-bottom: 0.5em; /* Adjust as needed */
 }
