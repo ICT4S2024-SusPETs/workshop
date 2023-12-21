@@ -139,10 +139,18 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 }
 
 /* Set the styles for the paragraph */
-.leftside p, .rightside p {
+.leftside p {
     list-style: none;
     margin: 24px auto;
     padding: 0;
     width: 100%; /* Set width to 100% for responsiveness */
-    text-align: left; /* or text-align: right; for the right column */
+    text-align: left;
+}
+
+.rightside p {
+    list-style: none;
+    margin: 24px auto;
+    padding: 0;
+    width: 100%; /* Set width to 100% for responsiveness */
+    text-align: right; 
 }
