@@ -168,14 +168,6 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     text-align: right; 
 }
 
-/* .leftside h3{
-    text-align: left;
-}
-
-.rightside h3{
-    text-align: right;
-} */
-
 .profile-container {
     display: flex;
     justify-content: space-between;
