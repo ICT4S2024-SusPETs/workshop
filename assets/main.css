@@ -182,3 +182,10 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 .leftside h3, .rightside h3 {
     margin-bottom: 0.5em; /* Adjust as needed */
 }
+
+.bullets {
+}
+
+.bullets li {
+ list-style-type: circle;
+}
