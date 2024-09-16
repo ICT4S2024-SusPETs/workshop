@@ -130,9 +130,11 @@ img.profile{
 }
 
 img.grouppic{
-    width: 500px;
+    width: 650px;
     height: auto;
     object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Flyer Images */
